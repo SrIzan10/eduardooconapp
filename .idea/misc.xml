@@ -3,9 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Izan/AndroidStudioProjects/EduardoOcnAPP/app/src/main/res/drawable/fondo.xml" value="0.3828125" />
-        <entry key="..\:/Users/Izan/AndroidStudioProjects/EduardoOcnAPP/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
-        <entry key="..\:/Users/Izan/AndroidStudioProjects/EduardoOcnAPP/app/src/main/res/layout/activity_splash_screen.xml" value="0.276268115942029" />
+        <entry key="..\:/Users/Izan/AndroidStudioProjects/EduardoOconApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2203125" />
+        <entry key="..\:/Users/Izan/AndroidStudioProjects/EduardoOconApp/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/Izan/AndroidStudioProjects/EduardoOconApp/app/src/main/res/layout/activity_splash.xml" value="0.1" />
       </map>
     </option>
   </component>
