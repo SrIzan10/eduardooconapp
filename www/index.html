@@ -1,14 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eduardo Ocón APP</title>
-</head>
-<body>
-    <!-- Make an embed that sends to https://ceipeduardoocon.es and addapts to the width and height of the device -->
-    <iframe src="https://sites.google.com/ceipeduardoocon.es/ceipeduardoocon/inicio" width="100%" height="100%"></iframe>
+<html>
+  <head>
+    <title>CEIP Eduardo Ocón Webapp</title>
 
-</body>
+    <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+    <script type="text/javascript" charset="utf-8">
+
+    var WEBSITE_URL = 'http://ceipeduardoocon.es';
+
+    // Wait for device API libraries to load
+    //
+    document.addEventListener("deviceready", onDeviceReady, false);
+
+    // device APIs are available
+    //
+    function onDeviceReady() {
+         var ref = window.open(WEBSITE_URL, '_blank', 'location=yes');
+    }
+
+    </script>
+  </head>
+  <body>
+  </body>
 </html>
