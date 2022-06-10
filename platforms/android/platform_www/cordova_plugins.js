@@ -14,10 +14,18 @@ cordova.define('cordova/plugin_list', function(require, exports, module) {
       "file": "plugins/cordova-plugin-whitelist/whitelist.js",
       "pluginId": "cordova-plugin-whitelist",
       "runs": true
+    },
+    {
+      "id": "cordova-plugin-splashscreen.SplashScreen",
+      "file": "plugins/cordova-plugin-splashscreen/www/splashscreen.js",
+      "pluginId": "cordova-plugin-splashscreen",
+      "clobbers": [
+        "navigator.splashscreen"
+      ]
     }
   ];
   module.exports.metadata = {
     "cordova-plugin-inappbrowser": "1.1.1",
-    "cordova-plugin-whitelist": "1.2.0"
+    "cordova-plugin-splashscreen": "6.0.0"
   };
 });
