@@ -8,6 +8,7 @@ Tecnologías usadas:
 - [Apache Cordova](https://cordova.apache.org/)
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [Windows Terminal](https://www.microsoft.com/en-us/windows/terminal/)
+- [Tabby](https://tabby.sh)
 - [Gradle](https://gradle.org/)
 - [Git](https://git-scm.com/)
 - [Java 8](https://www.oracle.com/technetwork/java/javase/overview/index.html)
